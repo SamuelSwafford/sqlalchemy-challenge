@@ -11,7 +11,6 @@ import numpy as np
 app = Flask(__name__)
 
 # Database Setup
-# Corrected path to the SQLite database
 engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 base = automap_base()
 
